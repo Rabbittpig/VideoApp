@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lanuch"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="40dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="44dp"
+        android:paddingRight="44dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/btn_login"
+            android:text="@string/login"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/sp_20" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_register"
+            android:text="@string/register"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/sp_20" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
